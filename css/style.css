@@ -8,7 +8,11 @@ body{
 .banner{
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
+    
+}
+section{
     height: 550px;
+    padding-bottom: 150px;
 }
 
 .content{
@@ -35,8 +39,71 @@ body{
     text-decoration: none;
     color: white;
     padding: 10px 15px;
-    /* margin: 5px 0px; */
-    margin-top: 5px;
+    /*margin: 5px 0px;
+    */margin-top: 5px;
     display: inline-block;
     border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
+.clearfix{
+    clear: both;
+}
+span{
+    color: orange;
+}
+.dream{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream h2{
+    margin: 50px 0px 30px;
+    font-size: 40px;
+}
+.dream h4{
+    margin: 0px 0px 20px;
+    font-weight: 700;
+}
+.dream p{}
+.dream a{
+    background-image:linear-gradient(45deg,rgba(173, 73, 73, 0.87),tomato);
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    /*margin: 5px 0px;
+    */
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.exparience{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exparience .content{
+    
+/* margin: 122px 0px 0px; */
+    
+height: 487px;
+    
+/* background: white; */
+    
+box-shadow: 10px 10px 40px gray;
+}
+.exparience h2{
+    margin: 50px 0px 30px;
+    font-size: 40px;
+}
+.exparience h4{
+    margin: 0px 0px 20px;
+    font-weight: 700;  
+}
+.exparience p{}
